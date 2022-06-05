@@ -1,6 +1,3 @@
-import string
-
-
 class Account:
     id = int
     name = str
@@ -9,6 +6,6 @@ class Account:
     password = str
 
 
-    def __init__(self, name, document) -> None:
+    def __init__(self, name: str, document: str) -> None:
         self.name = name
         self.document = document
